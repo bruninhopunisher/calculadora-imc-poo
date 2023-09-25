@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-class ConsoleUltils {
+class ConsoleUtils {
 
   static String lerStringComTexto(String texto) {
     stdout.write(texto);
