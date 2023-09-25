@@ -6,9 +6,9 @@ import 'package:desafio_calculadora_imc/models/pessoa.dart';
 void execute() {
   stdout.write("\nBem vindo a calculadora de IMC\n");
 
-  String inputNome = ConsoleUltils.lerStringComTexto("Digite seu nome: ");
-  var inputPeso = ConsoleUltils.lerDoubleComTexto("Digite seu peso: ");
-  var inputAltura = ConsoleUltils.lerDoubleComTexto("Digite sua altura em metros, ex: 1.80: ");
+  String inputNome = ConsoleUtils.lerStringComTexto("Digite seu nome: ");
+  var inputPeso = ConsoleUtils.lerDoubleComTexto("Digite seu peso: ");
+  var inputAltura = ConsoleUtils.lerDoubleComTexto("Digite sua altura em metros, ex: 1.80: ");
 
   var pessoaClass = Pessoa();
   pessoaClass.setNome(inputNome);
